@@ -1,0 +1,74 @@
+/* ---------- Force italic text color (dark + light) ---------- */
+
+/* DARK MODE: set italics to white */
+.theme-dark
+/* preview & rendered HTML */
+{
+  .markdown-preview-view em,
+  .markdown-preview-view i,
+  .markdown-preview-view blockquote em,
+  .markdown-preview-view blockquote i,
+  em,
+  i,
+  /* inline HTML that may appear in preview */
+  .markdown-preview-view .cm-inline,
+  /* CodeMirror / editor classes (varies by build/theme) */
+  .cm-italic,
+  .cm-em,
+  .cm-formatting-italic,
+  .cm-formatting .cm-em,
+  /* any element that explicitly sets font-style */
+  [style*="font-style: italic"]
+  {
+    color: white !important;
+  }
+}
+
+/* More editor-specific targeting for CodeMirror 6 containers */
+.theme-dark .cm-content .cm-italic,
+.theme-dark .cm-content .cm-em,
+.theme-dark .cm-content em,
+.theme-dark .cm-content i
+{
+  color: white !important;
+}
+
+/* LIGHT MODE: set italics to black */
+.theme-light
+{
+  .markdown-preview-view em,
+  .markdown-preview-view i,
+  .markdown-preview-view blockquote em,
+  .markdown-preview-view blockquote i,
+  em,
+  i,
+  .markdown-preview-view .cm-inline,
+  .cm-italic,
+  .cm-em,
+  .cm-formatting-italic,
+  .cm-formatting .cm-em,
+  [style*="font-style: italic"]
+  {
+    color: black !important;
+  }
+}
+
+.theme-light .cm-content .cm-italic,
+.theme-light .cm-content .cm-em,
+.theme-light .cm-content em,
+.theme-light .cm-content i
+{
+  color: black !important;
+}
+
+/* Safety net: if theme sets color via CSS variable (rarely on italics alone),
+   override the most common variables used for text color in preview/editor */
+.theme-dark {
+  --text-normal: #ffffff !important;
+}
+.theme-light {
+  --text-normal: #000000 !important;
+}
+
+/* Note: the variable overrides may affect other text if your theme relies on them.
+   If you notice undesired effects, remove the two --text-normal blocks above. */

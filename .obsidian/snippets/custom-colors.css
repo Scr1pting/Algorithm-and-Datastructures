@@ -1,0 +1,8 @@
+.task-gray {
+    color: var(--text-faint);
+}
+
+.done-green {
+    font-weight: bold;
+    color: #28a745;
+}

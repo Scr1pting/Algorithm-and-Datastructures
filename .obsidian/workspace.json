@@ -1,0 +1,230 @@
+{
+  "main": {
+    "id": "a7b07a6b45aadc25",
+    "type": "split",
+    "children": [
+      {
+        "id": "4cd81c5a113224a0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f65ed68fb75e396a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/1. Search.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1. Search"
+            }
+          },
+          {
+            "id": "1645ac6f9e055e95",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "AlgDat/Script/4_Dynamische Programmierung (Stand 05.11.2025).pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "4_Dynamische Programmierung (Stand 05.11.2025)"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2ac576cbda64284e",
+    "type": "split",
+    "children": [
+      {
+        "id": "720250bed96a7c02",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "abcdfdfbc0efc2eb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "606a6c006f3b2f12",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "46e90a5646c96562",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 312.5
+  },
+  "right": {
+    "id": "93d051e3534803ea",
+    "type": "split",
+    "children": [
+      {
+        "id": "a7733391c9c8297a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b9eabb02c080e90a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "LinAlg/LinAlg Notes.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for LinAlg Notes"
+            }
+          },
+          {
+            "id": "bd619010147ed931",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "DiskMath/Notes/5. Algebra.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 5. Algebra"
+            }
+          },
+          {
+            "id": "e815c69893109f0e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "0e37e3dba1aaafa2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "LinAlg/LinAlg Notes.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of LinAlg Notes"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "f65ed68fb75e396a",
+  "lastOpenFiles": [
+    "Notes/2. Sorting.md",
+    "Notes/3. Master Theorem.md",
+    "Notes/4. 2-3 Trees.md",
+    "Notes/9. Matrices and Graphs.md",
+    "Notes/8. Minimum Spanning Trees.md",
+    "Notes/7. Cheapest Paths.md",
+    "Notes/6. Topological Sorting.md",
+    "Notes/5. DP.md",
+    "Notes/attachments/top-sort-intervals.jpeg",
+    "Notes/attachments/union-find.svg",
+    "Notes/attachments/intervals.jpeg",
+    "Notes/attachments/boruvka.jpg",
+    "Notes/attachments/2-3-trees.svg",
+    "Notes/attachments",
+    "attachments/intervals.jpeg",
+    "9. Matrices and Graphs.md",
+    "8. Minimum Spanning Trees.md",
+    "7. Cheapest Paths.md",
+    "6. Topological Sorting.md",
+    "5. DP.md",
+    "4. 2-3 Trees.md",
+    "3. Master Theorem.md",
+    "2. Sorting.md",
+    "1. Search.md",
+    "Notes/1. Search.md",
+    "Notes",
+    "AlgDat/Notes/8. Minimum Spanning Trees.md",
+    "AlgDat/Notes/7. Cheapest Paths.md",
+    "AlgDat/Notes/6. Topological Sorting.md",
+    "AlgDat/Notes/4. 2-3 Trees.md",
+    "AlgDat/Notes/3. Master Theorem.md",
+    "AlgDat/Notes/2. Sorting.md",
+    "AlgDat/Notes/1. Search.md",
+    "AlgDat/Script/4_Dynamische Programmierung (Stand 05.11.2025).pdf",
+    "AlgDat/Script/7_Graphenalgorithmen All Pairs Shortest Paths und Matrizen (Stand 11.12.2025).pdf",
+    "AlgDat/Notes/attachments/Pasted-image-20241116211414-2.jpeg",
+    "AlgDat/Notes/attachments/Screenshot 2025-12-29 at 11.48.31.png",
+    "AlgDat/Tablet/AD25-10.pdf",
+    "AlgDat/Tablet/AD25-11.pdf",
+    "AlgDat/Tablet/AD25-12.pdf",
+    "AlgDat/Tablet/AD25-13.pdf",
+    "AlgDat/Notes/attachments/union-find.svg",
+    "LinAlg/notes_part_I.pdf",
+    "AlgDat/Script/3_Datenstrukturen (Stand 05.11.2025).pdf",
+    "AlgDat/Notes/attachments/2-3-trees.svg",
+    "Untitled.canvas"
+  ]
+}

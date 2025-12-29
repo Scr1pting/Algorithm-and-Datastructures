@@ -1,0 +1,13 @@
+{
+  "nativeMenus": true,
+  "cssTheme": "Things",
+  "translucency": false,
+  "enabledCssSnippets": [
+    "custom-italic-color",
+    "task-gray",
+    "no-image-shadow",
+    "tight-callouts",
+    "custom-colors"
+  ],
+  "showRibbon": false
+}

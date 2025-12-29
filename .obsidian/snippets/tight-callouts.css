@@ -1,0 +1,9 @@
+/* Tighten callout boxes */
+.callout {
+  padding: 1em 1.2em;
+}
+
+.callout .callout-content p {
+    margin-top: 0.3em; /* reduce space above content */
+    margin-bottom: 0;
+}
